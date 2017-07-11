@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 use Illuminate\Support\Str;
 
 /**
  * Class Resolver
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Resolver
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Packages\Directive\Contracts;
+namespace Oilstone\Directive\Contracts;
 
-use App\Packages\Directive\Collection;
+use Oilstone\Directive\Collection;
 
 /**
  * Interface Directivable
- * @package App\Packages\Directive\Contracts
+ * @package Oilstone\Directive\Contracts
  */
 interface Directivable
 {

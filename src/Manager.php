@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
-use App\Packages\Directive\Contracts\Directivable;
+use Oilstone\Directive\Contracts\Directivable;
 
 /**
  * Class Manager
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Manager
 {

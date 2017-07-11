@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Packages\Directive\Contracts;
+namespace Oilstone\Directive\Contracts;
 
 /**
  * Interface Store
- * @package App\Packages\Directive\Contracts
+ * @package Oilstone\Directive\Contracts
  */
 interface Store
 {

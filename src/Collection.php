@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 use ArrayIterator;
 use Countable;
@@ -9,7 +9,7 @@ use Traversable;
 
 /**
  * Class Collection
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Collection implements IteratorAggregate, Countable
 {

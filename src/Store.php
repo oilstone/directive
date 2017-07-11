@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 
-use App\Packages\Directive\Contracts\Store as StoreInterface;
+use Oilstone\Directive\Contracts\Store as StoreInterface;
 
 /**
  * Class Store
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Store implements StoreInterface
 {

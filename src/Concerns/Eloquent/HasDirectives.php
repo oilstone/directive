@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Packages\Directive\Concerns\Eloquent;
+namespace Oilstone\Directive\Concerns\Eloquent;
 
-use App\Packages\Directive\Collection;
-use App\Packages\Directive\Contracts\Directivable;
-use App\Packages\Directive\Factory;
-use App\Packages\Directive\Manager;
-use App\Packages\Directive\Registry;
-use App\Packages\Directive\Resolver;
+use Oilstone\Directive\Collection;
+use Oilstone\Directive\Contracts\Directivable;
+use Oilstone\Directive\Factory;
+use Oilstone\Directive\Manager;
+use Oilstone\Directive\Registry;
+use Oilstone\Directive\Resolver;
 use Illuminate\Support\Collection as BaseCollection;
 
 /**
  * Trait HasDirectives
- * @package App\Packages\Directive\Concerns\Eloquent
+ * @package Oilstone\Directive\Concerns\Eloquent
  */
 trait HasDirectives
 {

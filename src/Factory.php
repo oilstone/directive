@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 /**
  * Class Factory
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Factory
 {

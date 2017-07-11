@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
-use App\Packages\Directive\Contracts\Directivable;
-use App\Packages\Directive\Contracts\Store;
-use App\Packages\Directive\Store as DefaultStore;
+use Oilstone\Directive\Contracts\Directivable;
+use Oilstone\Directive\Contracts\Store;
+use Oilstone\Directive\Store as DefaultStore;
 use Exception;
 use Illuminate\Support\Str;
 
 /**
  * Class Directive
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 abstract class Directive
 {

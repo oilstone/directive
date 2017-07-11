@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 use Illuminate\Support\ServiceProvider;
 

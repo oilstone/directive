@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Packages\Directive;
+namespace Oilstone\Directive;
 
 /**
  * Class Registry
- * @package App\Packages\Directive
+ * @package Oilstone\Directive
  */
 class Registry
 {
