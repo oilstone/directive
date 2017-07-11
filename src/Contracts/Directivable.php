@@ -5,10 +5,10 @@ namespace App\Packages\Directive\Contracts;
 use App\Packages\Directive\Collection;
 
 /**
- * Interface Directiveable
+ * Interface Directivable
  * @package App\Packages\Directive\Contracts
  */
-interface Directiveable
+interface Directivable
 {
     /**
      * @return Collection

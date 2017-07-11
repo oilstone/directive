@@ -2,7 +2,7 @@
 
 namespace App\Packages\Directive;
 
-use App\Packages\Directive\Contracts\Directiveable;
+use App\Packages\Directive\Contracts\Directivable;
 use App\Packages\Directive\Contracts\Store;
 use App\Packages\Directive\Store as DefaultStore;
 use Exception;
@@ -20,7 +20,7 @@ abstract class Directive
     protected $data;
 
     /**
-     * @var Directiveable
+     * @var Directivable
      */
     protected $context;
 
@@ -82,10 +82,10 @@ abstract class Directive
     }
 
     /**
-     * @param Directiveable|null $context
+     * @param Directivable|null $context
      * @return $this
      */
-    public function setContext(?Directiveable $context)
+    public function setContext(?Directivable $context)
     {
         $this->context = $context;
 

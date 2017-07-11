@@ -3,7 +3,7 @@
 namespace App\Packages\Directive\Concerns\Eloquent;
 
 use App\Packages\Directive\Collection;
-use App\Packages\Directive\Contracts\Directiveable;
+use App\Packages\Directive\Contracts\Directivable;
 use App\Packages\Directive\Factory;
 use App\Packages\Directive\Manager;
 use App\Packages\Directive\Registry;
@@ -34,7 +34,7 @@ trait HasDirectives
 
             if ($relation instanceof BaseCollection) {
                 foreach ($relation as $directiveable) {
-                    if ($directiveable instanceof Directiveable) {
+                    if ($directiveable instanceof Directivable) {
                         $directives = $directiveable->getDirectives();
 
                         if (count($directives)) {

@@ -2,7 +2,7 @@
 
 namespace App\Packages\Directive;
 
-use App\Packages\Directive\Contracts\Directiveable;
+use App\Packages\Directive\Contracts\Directivable;
 
 /**
  * Class Manager
@@ -22,7 +22,7 @@ class Manager
      * @param $directiveable
      * @return Collection
      */
-    public static function resolve(Directiveable $directiveable)
+    public static function resolve(Directivable $directiveable)
     {
         return $directiveable->getDirectives();
     }
